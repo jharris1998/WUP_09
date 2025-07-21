@@ -124,9 +124,11 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 ```
 ### Best Two regressor model
+
 the best model and the best regression model is Length3-Width with an adjusted r-squared of 0.8482
 
 
 
 ## Final Summary Statements
-Ive learned how to make multiple regression models manually and automated. The different models showed me how to determine 
+
+I've learned how to make multiple regression models manually and automated. The different models showed me how to determine the best model and what specific model and the specific order.   
