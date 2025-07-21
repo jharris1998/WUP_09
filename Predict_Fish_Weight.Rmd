@@ -95,6 +95,8 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 ```
 ### Best Two regressor model
 
+the best regression model is L1-L2-L3-H-W. The best 2 regression models are Length1- Length3.
+
 ## Roach
 
 ### Best Models
