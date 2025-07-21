@@ -95,7 +95,7 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 ```
 ### Best Two regressor model
 
-the best regression model is L1-L2-L3-H-W. The best 2 regression models are Length1- Length3. The statistics on this adjusted r-squared is 0.9794
+the best regression model is L1-L2-L3-H-W. The best 2 regression models are Length1- Length3. The statistics on this adjusted r-squared is 0.9649 
 ```{r}
 PIKE3 <- lm(Weight ~ . -Height-Width-Length2,data=Pike)
 summary.lm(PIKE3)
